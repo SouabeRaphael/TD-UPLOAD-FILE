@@ -1,0 +1,31 @@
+#imgPreview {
+	width: 200px; 
+	max-height: 200px;
+	display: block;
+}
+
+.content-wrapper{
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.form{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	margin-top: 30px;
+}
+
+
+.btn-submit{
+	margin-top: 30px;
+	width: 100px;
+	border: none;
+	border: 2px solid black;
+	border-radius: 5px;
+}
