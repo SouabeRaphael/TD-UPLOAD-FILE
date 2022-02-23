@@ -1,5 +1,8 @@
+<?php require_once '../part2/controllers/index-controller.php' ?>
+
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,10 +13,21 @@
     <!-- appel dossier JavaScript -->
     <script async src="../part2/assets/script.js"></script>
 </head>
+
+<?php 
+
+
+
+?>
+
 <body>
+    <header class="wrapper-header">
+        <nav>
+            <a href="#" class="title">allPIX</a>
+        </nav>
+    </header>
     <main class="content-site">
         <div class="wrapper-content">
-            <h1>allPIX</h1>
             <form action="" method="POST" class="form">
                 <div class="login">
                     <label class="label-form" for="login">Login</label>
@@ -29,6 +43,7 @@
             </form>
         </div>
     </main>
-    
+
 </body>
+
 </html>
