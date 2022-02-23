@@ -8,12 +8,25 @@
     <link rel="stylesheet" href="./part1/uploadPreview/uploadPreview.css">
     <script async src="./part1/uploadPreview/uploadPreview.js"></script>
 </head>
+<?php 
+
+if(isset($_FILES['fileToUpload']) && $_FILES['fileToUpload']['error'] == 0){
+    $tmp = $_FILES['fileToUpload']['tmp_name'];
+    $filename = $_FILES['fileToUpload']['name'];
+
+    $dest = 'part1/img/';
+
+    move_uploaded_file($tmp, $dest . $filename);
+
+}
+
+?>
 <body>
     <main class="content-wrapper">
         <h1>Veuillez choisir une image:</h1>
-        <img id="imgPreview" src="./part1/img/capture01.PNG">
-        <form action="" method="GET" enctype="multipart/form-data" class="form">
-            <input type="file" name="photo" class="btn-file">
+        <img id="imgPreview">
+        <form action="" method="POST" enctype="multipart/form-data" class="form">
+            <input type="file" name="fileToUpload" class="fileToUpload">
             <button class="btn-submit" type="submit">UPLOAD</button>  
         </form>
     </main>
