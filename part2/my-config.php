@@ -12,7 +12,7 @@
     $users = [
         [
             'username'=> 'alexis',
-            'password'=> 'ab4f63f9ac65152575886860dde480a1',
+            'password'=> 'test',
             'formula'=> '',
             'quota'=> '',
         ],
@@ -24,7 +24,7 @@
         ],
         [
             'username'=> 'andré',
-            'password'=> 'ab4f63f9ac65152575886860dde480a1',
+            'password'=> 'toto',
             'formula'=> '',
             'quota'=> '',
         ]
