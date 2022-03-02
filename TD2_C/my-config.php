@@ -1,14 +1,14 @@
-
-<?php
+<?php 
+    const root = __DIR__.'\\';
     const max_file_size = 10 * 1024 * 1024; // 10 Mo max
-    const root = __DIR__."/";
+
     const formats = [
         "jpg" => "image/jpg",
         "jpeg" => "image/jpeg",
         "gif" => "image/gif",
         "png" => "image/png"
     ];
- 
+
     $users = [
         [
             'username'=> 'alexis',
@@ -28,27 +28,6 @@
             'formula'=> '',
             'quota'=> 0,
         ]
- 
+
     ];
-    // $users = [
-    //     [
-    //         'username'=> 'alexis',
-    //         'password'=> 'titi',
-    //         'formula'=> '',
-    //         'quota'=> 0,
-    //     ],
-    //     [
-    //         'username'=> 'marc',
-    //         'password'=> 'tata',
-    //         'formula'=> '',
-    //         'quota'=> 0,
-    //     ],
-    //     [
-    //         'username'=> 'andré',
-    //         'password'=> 'toto',
-    //         'formula'=> '',
-    //         'quota'=> 0,
-    //     ]
- 
-    // ];
 ?>

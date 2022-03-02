@@ -25,6 +25,10 @@ body {
 /* Header */
 /* ------------------------------------- */
 
+/* ----------------------------------------------------------- */
+/* Design index.php */
+/* ----------------------------------------------------------- */
+
 .wrapper-header{
     width: 100%;
     display: flex;
@@ -67,6 +71,10 @@ body {
     margin-top: 20px;
     line-height: 2.5rem;
 }
+.form.erreur{
+    animation: shake-animation 4.72s ease
+}
+
 
 .label-form{
     font-size: 20px;
@@ -91,4 +99,38 @@ body {
     width: 250px;
     height: 35px;
     font-size: 20px;
+}
+
+@keyframes shake-animation {
+    0% { transform:translate(0,0) }
+   1.78571% { transform:translate(5px,0) }
+   3.57143% { transform:translate(0,0) }
+   5.35714% { transform:translate(5px,0) }
+   7.14286% { transform:translate(0,0) }
+   8.92857% { transform:translate(5px,0) }
+   10.71429% { transform:translate(0,0) }
+   100% { transform:translate(0,0) }
+ }
+
+ /* ------------------------------------------------------ */
+ /* Design dashboard.php */
+ /* ------------------------------------------------------ */
+
+ .content-dashboard{
+    width: 100%;
+}
+
+.wrapper-dashboard{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#imgPreview {
+	width: 200px; 
+	max-height: 200px;
+	display: block;
 }
