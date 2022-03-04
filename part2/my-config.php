@@ -9,6 +9,9 @@
         "png" => "image/png"
     ];
  
+    // @@@
+    // tableau des utilisateur pouvant ce connecter
+    // @@@
     $users = [
         [
             'username'=> 'alexis',
@@ -30,25 +33,4 @@
         ]
  
     ];
-    // $users = [
-    //     [
-    //         'username'=> 'alexis',
-    //         'password'=> 'titi',
-    //         'formula'=> '',
-    //         'quota'=> 0,
-    //     ],
-    //     [
-    //         'username'=> 'marc',
-    //         'password'=> 'tata',
-    //         'formula'=> '',
-    //         'quota'=> 0,
-    //     ],
-    //     [
-    //         'username'=> 'andré',
-    //         'password'=> 'toto',
-    //         'formula'=> '',
-    //         'quota'=> 0,
-    //     ]
- 
-    // ];
 ?>

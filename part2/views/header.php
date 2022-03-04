@@ -1,5 +1,7 @@
+<!-- appel de la page index controler -->
 <?php require_once($_SERVER['DOCUMENT_ROOT']."\TP-upload-file\part2\controllers\index-controller.php");?>
 
+<!-- créeation du header -->
 <!DOCTYPE html>
 <html lang="fr">
 
@@ -12,6 +14,11 @@
     <link rel="stylesheet" href="/TP-upload-file/part2/assets/style.css">
     <!-- appel dossier JavaScript -->
     <script async src="/TP-upload-file/part2/assets/script.js"></script>
+    
+    <!-- appel css librairie -->
+    <link rel="stylesheet" href="/TP-upload-file/part2/node_modules/lightbox2/dist/css/lightbox.css">
+    <!-- appel js librairie -->
+    <script src="/TP-upload-file/part2/node_modules/lightbox2/dist/js/lightbox-plus-jquery.js"></script>
 </head>
 
 <body>

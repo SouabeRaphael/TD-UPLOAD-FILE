@@ -7,7 +7,7 @@
         <ul class="crumb1">
             <li><a href="#Connexion">Connexion</a></li>
         </ul>
-        <form action="http://php.test/TP-upload-file/part2/controllers/index_controller.php" method="POST">
+        <form action="http://localhost/LAMANU/TD2_C/controllers/index_controller.php" method="POST">
             <div class="center">
                 <ul>
                     <li class="no_type_list">
@@ -32,6 +32,10 @@
                         }
                     ?>
                 </form>
+                <?php 
+                    echo "<p style=\"color:red; font-size:3em\">Nouvelle consigne : Afficher la date du jour au format ".html_entity_decode("jour de la semaine (ex : lundi )  JJ/MM/AAAA")."une fois connecté</p>"; 
+                ?>
+                
             </div>
         </div>
     </body>
